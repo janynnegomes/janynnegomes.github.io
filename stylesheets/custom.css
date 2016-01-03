@@ -1,0 +1,19 @@
+.profile-avatar{
+	float: left;
+    margin-right: 20px;
+    height: auto;
+    width: 200px;
+    max-height: 250px;
+        border: solid 6px #FFF;
+}
+
+.title-box h1{
+font-size: 45px;
+
+}
+
+.social-list {
+	width: 630px;
+    display: inline-flex;
+    list-style: none;
+}
