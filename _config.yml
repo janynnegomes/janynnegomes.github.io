@@ -1,0 +1,62 @@
+# Site settings
+title: Janynne Gomes
+email: janynnegomes@gmail.com
+url: https://janynnegomes.com
+description: "Engenheira de Software & Professora de Programação"
+skills: "Engenheira de Software & Professora de Programação"
+meta_author: Janynne Gomes
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: disqus
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: janynnegomescom
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: ba4c63 
+  primary-rgb: "24,288,156" 
+  secondary: 5a4b58
+  secondary-dark: 862338
+
+# Footer settings
+footer:
+  copyright: Janynne Gomes
+  location: LOCALIZAÇÃO
+  social: ENCONTRE-ME NA WEB
+  credits: CRÉDITOS
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Governador Valadares-MG
+  - line: Brasil
+
+# Credits content
+credits: 'Esse template foi criado por <a href="http://startbootstrap.com">Start Bootstrap</a> e adaptado por mim em minhas aventuras pelo mundo Ruby.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Janynne Gomes</title>
+    <description>Engenheira de Software &amp; Professora de Programação</description>
+    <link>https://janynnegomes.com/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 23 Jun 2016 01:26:04 -0300</pubDate>
+    <lastBuildDate>Thu, 23 Jun 2016 01:26:04 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>Project 6</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 -0300</pubDate>
+        <link>https://janynnegomes.com/web%20development/2014/07/15/project-6/</link>
+        <guid isPermaLink="true">https://janynnegomes.com/web%20development/2014/07/15/project-6/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+      <item>
+        <title>Project 5</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Mon, 14 Jul 2014 00:00:00 -0300</pubDate>
+        <link>https://janynnegomes.com/web%20development/2014/07/14/project-5/</link>
+        <guid isPermaLink="true">https://janynnegomes.com/web%20development/2014/07/14/project-5/</guid>
+        
+        
+        <category>web development</category>
+        
+      </item>
+    
+  </channel>
+</rss>
