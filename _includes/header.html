@@ -1,20 +1,18 @@
     <!-- Header -->
+    
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">                    
-                    <div class="intro-text">
-                        <span class="name">{{ site.title }}</span>
-                        <span class="skills">{{ site.skills }}</span>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+        <div class="jumbotron rounded-0">
+                <div class="row">
+                        <div class="col-md-8">
+                                <p class="display-5">Olá! Eu sou a <b>{{ site.author }}</b></p>
+                                <p class="lead">{{ site.description }}</p>
+                                <hr class="my-4">
+                                <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fas fa-handshake"></i> Contratar</a>
+                                <a class="btn btn-success btn-lg" href="https://api.whatsapp.com/send?phone=5533999948557&text=Olá%21%20 Gostaria%20de%20fazer%20um%20orçamento%20" role="button"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                        </div>
+                        <div class="col-md-4">
+                                <img src="assets/images/top.svg" class="top-ilustration">
+                        </div>
                 </div>
-            </div>
         </div>
     </header>

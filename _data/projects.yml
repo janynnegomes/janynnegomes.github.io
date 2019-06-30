@@ -1,0 +1,22 @@
+# Projects | Projetos    
+- title: Jogo na categoria esporte da mente
+  url: none
+  icon: fas fa-gamepad
+  short_description: Prestação de serviços para elaboração do CANVAS, análise de requisitos
+  long_description: Prestação de serviços para elaboração do CANVAS, análise de requisitos, documentação UML e prototipagem do jogo visando obtenção da arquitetura necessária para o desenvolvimento do software. Foram utilizadas as ferramentas Trello para gestão ágil do projeto , Google Drive para documentação, Argo UML para modelagem e Cacoo para criação do protótipo de baixa fidelidade.
+  date: Mar 2019 – Apr 2019
+  details: canvas, prototipagem, documentação
+- title: Automatização de pedidos em restaurantes
+  url: none
+  icon: fas fa-utensils
+  short_description: Prestação de serviços para desenvolvimento de aplicativo Android e iOS
+  long_description: Prestação de serviços para desenvolvimento de aplicativo Android e iOS para automatizar o processo de pedidos em bares e restaurantes, um garçom virtual na palma da mão. Foram utilizadas as tecnologias Angular e Ionic para front-end a PHP para back-end. Para ALM do projeto foi utilizado o serviço Visual Studio Team Services
+  date: Jan 2017 – Aug 2017
+  details: canvas, prototipagem, documentação
+- title: Site para clínica médica
+  url: none
+  icon: fas fa-heartbeat
+  short_description: Desenvolvimento de website para o ramo da saúde para atender uma clínica de medicina de família e comunidade.
+  long_description: Desenvolvimento de website para o ramo da saúde para atender uma clínica de medicina de família e comunidade. Foi criado em WordPress e desenvolvido um plugin específico para controlar distribuição de arquivos entre os representantes comerciais. Para aumentar a conversão de vendas foram criados formulários que informatizavam todo o processo de contratação dos planos emitindo alertas para os proprietários da empresa sempre que um novo cliente enviava seus dados.
+  date: Jan 2017 – Aug 2017
+  details: canvas, prototipagem, documentação

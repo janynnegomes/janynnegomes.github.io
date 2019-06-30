@@ -1,62 +1,42 @@
-# Site settings
-title: Janynne Gomes
+
+title: Janyne Gomes
+author: Janyne Gomes
 email: janynnegomes@gmail.com
-url: https://janynnegomes.com
-description: "Engenheira de Software & Professora de Programação"
-skills: "Engenheira de Software & Professora de Programação"
-meta_author: Janynne Gomes
+description: >- # this means to ignore newlines until "baseurl:"
+  Engenheira de Software| Palestrante | Instrutora | Desenvolvedor Web | Desenvolvedor Móvel | Empreendedorismo | Chatbots
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: devnetgomez
+github_username:  devnetgomez
+mini_bio: Engenheira de Software com mais de 11 anos de experiência em desenvolvimento. Experiência internacional em BootCamp de robótica na NASA GSFC nos EUA. Sólidos conhecimentos em UML, OOP, Java, PHP, Javascript, Angular, NodeJS, MySQL, Ionic, WordPress, Jasmine, PHPUnit e Scrum. Forte relacionamento interpessoal com facilidade de comunicação em inglês e português. 
 
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
 contact: disqus
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: janynnegomescom
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: ba4c63 
-  primary-rgb: "24,288,156" 
-  secondary: 5a4b58
-  secondary-dark: 862338
-
-# Footer settings
-footer:
-  copyright: Janynne Gomes
-  location: LOCALIZAÇÃO
-  social: ENCONTRE-ME NA WEB
-  credits: CRÉDITOS
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Governador Valadares-MG
-  - line: Brasil
-
-# Credits content
-credits: 'Esse template foi criado por <a href="http://startbootstrap.com">Start Bootstrap</a> e adaptado por mim em minhas aventuras pelo mundo Ruby.'
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  portfolios:
+     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "portfolios"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+     

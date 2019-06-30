@@ -1,0 +1,22 @@
+<section id="content">
+    <div class="container">
+        <h2 class="text-center">Conteúdo</h2>
+        <div class="row">
+            {% for personal_content in site.data.content %}
+            <div class="col-md-4">
+                <div class="card" 
+                    style="width: 18rem;">
+                    <img src="{{ personal_content.cover }}" class="card-img-top" alt="{{ personal_content.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ personal_content.title }}</h5>
+                        <p class="card-text text-mutted"> {{ personal_content.local }} </p>
+                        <p class="card-text"> {{ personal_content.date }} </p>
+                        <a href="#" class="btn btn-primary">Ler</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
