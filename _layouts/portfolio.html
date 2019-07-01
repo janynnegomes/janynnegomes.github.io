@@ -2,14 +2,14 @@
 <html lang="pt-br">
 {% include head.html %}
 
-<body id="page-top" class="index">
-    <div class="container-fluid portfolio-page">
+<body id="page-top " class="index">
+    <div class="pl-0 pr-0 container-fluid portfolio-page">
         {% include nav.html %}
         {% include header-portfolio.html %}
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3><i class="fas fa-list"></i> Sumário</h3>
+                    <h3><i class="fas fa-list"></i> Resumo</h3>
                     {{ content }}
 
                     <span>Habilidades: </span>
@@ -21,18 +21,23 @@
 
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active" id="nav-screenshot-tab" data-toggle="tab" href="#nav-screenshot"
-                                role="tab" aria-controls="nav-screenshot" aria-selected="true"><i class="fas fa-desktop"></i> </a>
-                            <a class="nav-item nav-link" id="nav-video-tab" data-toggle="tab" href="#nav-video"
+                                {% if page.screenshots %}
+                                    <a class="nav-item nav-link active" id="nav-screenshot-tab" data-toggle="tab" href="#nav-screenshot"
+                                    role="tab" aria-controls="nav-screenshot" aria-selected="true" title="Screenshots"><i class="fas fa-desktop"></i> </a>
+                                {% endif %}
+                                {% if page.videoId %}
+                                <a class="nav-item nav-link" id="nav-video-tab" data-toggle="tab" href="#nav-video"
                                 role="tab" aria-controls="nav-video" aria-selected="false"> <i class="fas fa-film"></i> </a>
+                                {% endif %}
 
                         </div>
                     </nav>
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show" id="nav-screenshot" role="tabpanel"
+                        <div class="tab-pane fade show active" id="nav-screenshot" role="tabpanel"
                             aria-labelledby="nav-screenshot-tab">
-                            
-                            {% include portfolio-screenshots.html %}
+                            {% if page.screenshots %}
+                            <img src="{{ site.base_url}}/assets/images/portfolios/{{ page.screenshots[0].url}}" class="d-block w-100" alt="...">
+                            {% endif %}
 
                            </div>
                         <div class="tab-pane fade" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
@@ -50,14 +55,13 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <i class="fas fa-tasks"></i> Desafios
+                            <i class="fas fa-star"></i> Funcionalidades principais
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title small text-center">"Desafios são oportunidades de provar nossas
-                                habilidades"</h5>
-                            <ul class="list-group">
-                                {% for challenge in page.challenges %}
-                                <li class="list-group-item"> <i class="fas fa-check text-success"></i>
+                            
+                            <ul class="list-group ">
+                                {% for challenge in page.features %}
+                                <li class="list-group-item border-0"> <i class="fas fa-check text-success"></i>
                                     {{ challenge.name }}</li>
                                 {% endfor %}
 
@@ -72,13 +76,15 @@
                         </div>
                         <div class="card-body">
                             {% for tool in page.tools %}
-                            <div class="list-group">
-                                <a href="#" class="list-group-item list-group-item-action ">
+                            <div class="list-group border-0">
+                                <a href="#" class="list-group-item list-group-item-action  border-left">
                                     <div class="d-flex w-100 justify-content-between">
                                         <h5 class="mb-1">{{ tool.name}}</h5>
                                     </div>
                                     <small>{{ tool.reason}}</small>
+
                                 </a>
+                            </div>
                                 {% endfor %}
                             </div>
                         </div>
@@ -90,37 +96,8 @@
     </div>
 
 
-    <div class="row">
-        <div class="col">
-
-            <!-- <div id="disqus_thread"></div>/#disqus_thread -->
-        </div>
-    </div>
-
     <!-- Disqus scripts-->
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = '{{ site.disqus_shortname }}'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            document.getElementById('disqus_thread').appendChild(dsq);
-        })();
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var s = document.createElement('script'); s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-            document.getElementById('disqus_thread').appendChild(s);
-        }());
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-            Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+    <!-- TO DO -->
     <!-- End of disqus scripts-->
 
     {% include footer.html %}

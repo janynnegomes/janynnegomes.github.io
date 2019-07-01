@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contato
+excerpt: Me encontre por um desses canais
 ---
 
 E-mail: janynnegomes@gmail.com

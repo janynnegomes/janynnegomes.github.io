@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sobre mim
-
+excerpt: Conheça um pouco mais da minha história
 ---
 
 ***Engenheira de Software*** com mais de 11 anos de experiência em desenvolvimento. Experiência internacional em BootCamp de robótica na NASA GSFC nos EUA. Sólidos conhecimentos em UML, OOP, Java, PHP, Javascript, Angular, NodeJS, MySQL, Ionic, WordPress, Jasmine, PHPUnit e Scrum. Forte relacionamento interpessoal com facilidade de comunicação em inglês e português.

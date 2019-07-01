@@ -1,11 +1,12 @@
 ---
 title: Automatização em bares
 url: none
-icon: fas fa-heartbeat
-excerpt: Desenvolvimento de website para o ramo da saúde para atender uma clínica de medicina de família e comunidade.
+icon: fas fa-food
+cover: automatizacao-bares/cover.jpg
+excerpt: Aplicativos que ligam donos de bares aos clientes físicos durante todo o consumo, fazendo o papel do garçom virtual
 period: Jan 2017 – Aug 2017
-details: canvas, prototipagem, documentação
-videoId: il5tbiYQqaY
+details: gerenciamento de projeto, desenvolvimento e testes
+videoId: 
 skills: 
     - name: canvas
     - name: prototipagem
@@ -18,22 +19,20 @@ tools:
 categories:
     - name: site
       icon: fa fa-download
-    - name: aplicativo
+    - name: aplicativo móvel
       icon: fa fa-phone
-challenges: 
+    - name: back-end
+      icon: fa fa-phone
+    - name: front-end
+      icon: fa fa-phone
+features: 
     - name: "Push notifications"
     - name: Socket.io 
     - name: Autenticação com Facebook
     - name: Escaneamento de QRCode
 screenshots:
-  - url: https://via.placeholder.com/400x300" 
+  - url: automatizacao-bares/cover.jpg" 
     name: Home 1
-    subtitle: teste
-  - url: https://via.placeholder.com/400x300" 
-    name: Home 2
-    subtitle: teste
-  - url: https://via.placeholder.com/400x300" 
-    name: Home 3
     subtitle: teste
 ---
 
