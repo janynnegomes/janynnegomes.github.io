@@ -21,10 +21,7 @@ categories:
       icon: fa fa-download
     - name: aplicativo móvel
       icon: fa fa-phone
-    - name: back-end
-      icon: fa fa-phone
-    - name: front-end
-      icon: fa fa-phone
+      
 features: 
     - name: "Push notifications"
     - name: Socket.io 

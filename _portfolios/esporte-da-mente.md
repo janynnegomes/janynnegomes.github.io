@@ -1,5 +1,5 @@
 ---
-title: Jogo na modalidade esporte da mente
+title: Jogo esporte da mente
 skills: Documentação, CANVAS, Prototipação
 url: none
 icon: fas fa-gamepad
