@@ -5,7 +5,7 @@ email: janynnegomes@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Engenheira de Software| Palestrante | Instrutora | Desenvolvedora Web | Desenvolvedora Móvel | Empreendedorismo | Chatbots
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "devnetgomez.github.io" 
+url: "http://devnetgomez.github.io" 
 twitter_username: devnetgomez
 github_username:  devnetgomez
 mini_bio: Engenheira de Software com mais de 11 anos de experiência em desenvolvimento. Experiência internacional em BootCamp de robótica na NASA GSFC nos EUA. Sólidos conhecimentos em UML, OOP, Java, PHP, Javascript, Angular, NodeJS, MySQL, Ionic, WordPress, Jasmine, PHPUnit e Scrum. Forte relacionamento interpessoal com facilidade de comunicação em inglês e português. 
