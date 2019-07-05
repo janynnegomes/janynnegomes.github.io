@@ -1,6 +1,6 @@
 ---
 title: Automatização em bares
-url: none
+external_url: none
 icon: fas fa-food
 cover: automatizacao-bares/cover.jpg
 excerpt: Aplicativos que ligam donos de bares aos clientes físicos durante todo o consumo, fazendo o papel do garçom virtual

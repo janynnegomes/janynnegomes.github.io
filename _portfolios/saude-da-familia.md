@@ -1,6 +1,6 @@
 ---
 title: Site para clínica médica
-url: none
+external_url: none
 icon: fas fa-heartbeat
 cover: saude-da-familia/cover.jpg
 excerpt: Website para a área da saúde que conecta um plano de assistência médica aos clientes

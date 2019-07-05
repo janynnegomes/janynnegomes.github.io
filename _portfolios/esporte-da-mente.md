@@ -1,7 +1,7 @@
 ---
 title: Jogo esporte da mente
 skills: Documentação, CANVAS, Prototipação
-url: none
+external_url: none
 icon: fas fa-gamepad
 cover: esporte-da-mente/cover.jpg
 excerpt: Prestação de serviços para elaboração do CANVAS, análise de requisitos
