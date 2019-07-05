@@ -1,5 +1,7 @@
 - name: Início
   link: /
+- name: Portfólio
+  link: /portfolios.html
 - name: Sobre
   link: /sobre.html
 - name: Contato

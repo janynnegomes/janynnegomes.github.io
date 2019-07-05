@@ -1,13 +1,6 @@
 ---
 layout: default
-title: Projetos
+title: Portfólios
 ---
 
-nada
-<ul>
-  {% for project in site.portfolios %}
-    <li>
-      <h2><a href="{{ site.baseurl }}/portfolios/{{project.slug}}">{{ project.title }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
+{% include experiences.html %}
