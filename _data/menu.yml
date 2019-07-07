@@ -1,8 +1,12 @@
 - name: Início
   link: /
+  icon: fas fa-home
 - name: Portfólio
   link: /portfolios.html
+  icon: fas fa-laptop-code
 - name: Sobre
   link: /sobre.html
+  icon: fas fa-user-astronaut
 - name: Contato
   link: /contato.html
+  icon: fas fa-at

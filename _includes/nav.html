@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-primary pl-5 pr-5">
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light pl-5 pr-5 shadow-sm">
   <a class="navbar-brand" href="{{ site.url}}">{{ site.title}}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
 
       {% for item in site.data.menu %}
       <li class="nav-item active">
-        <a class="nav-link" href="{{ item.link }}" >{{ item.name}}  {% if page.url == item.link %} <span class="sr-only">(current)</span> {% endif %}</a>
+        <a class="nav-link" href="{{ item.link }}" > <i class="{{item.icon}}"></i> {{ item.name}}  {% if page.url == item.link %} <span class="sr-only">(current)</span> {% endif %}</a>
       </li>
       {% endfor %}
 
