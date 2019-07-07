@@ -1,19 +1,21 @@
 <!-- Trabalhos-->
 <div class="container mb-5 mt-5 ">
-    <h2 class="text-center">Portfolio</h2>
+    <h2 class="text-center mb-5">Portfólio</h2>
     <div class="row align-items-start">
         {% for project in site.portfolios %}
         <div class="col-md-4">
-            <div class="card text-center rounded-0 bg-info" style="width: 18rem;">
-                <img src="{{ site.baseurl }}/assets/images/portfolios/{{ project.cover}}" class="card-img-top" alt="...">
+            <div    class="card text-left rounded-0 border-0 shadow text-secondary" 
+                    style="width: 18rem;">
+                <img src="{{ site.baseurl }}/assets/images/portfolios/{{ project.cover}}" 
+                     class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title text-break"> {{ project.title}}</h5>
+                    <h5 class="card-title text-break text-info"> {{ project.title}}</h5>
                     <p class="card-text text-break">{{ project.excerpt}}</p>
                     <p class="card-text"> {% for category in project.categories %}
                         <span class="badge badge-pill badge-primary">{{ category.name }}</span>                    
                     {% endfor %}
                     </p>
-                    <a href="{{ site.baseurl }}/portfolios/{{project.slug}}" class="btn btn-light"> <i class="fas fa-eye"></i></a>
+                    <div class="card-footer bg-transparent text-center"><a href="{{ site.baseurl }}/portfolios/{{project.slug}}" class="btn btn-outline-info"> <i class="fas fa-eye"></i> Ver projeto</a></div>                    
                 </div>            
             </div>
         </div>

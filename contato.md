@@ -2,6 +2,7 @@
 layout: default
 title: Contato
 excerpt: Me encontre por um desses canais
+icon: fas fa-at
 ---
 
 E-mail: janynnegomes@gmail.com
