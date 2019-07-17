@@ -3,12 +3,15 @@
 
 .portfolio-page .my-4 {
   border: solid 5px red; }
+.portfolio-page .bottom-portfolio {
+  background-image: url("/assets/images/topo-portfolio-page.png");
+  background-clip: padding-box;
+  background-position: bottom;
+  background-size: contain;
+  BACKGROUND-REPEAT: no-repeat; }
 
 .portfolio-section {
   padding: 40px; }
-
-#page-top .container-fluid {
-  padding: 0px !important; }
 
 .bg-primary, .bg-purple {
   background-color: purple !important;

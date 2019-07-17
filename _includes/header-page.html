@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
                 <h1><i class="{{ page.icon}} "></i></h1>
-                <h3 class="display-4">{{ page.title }}</h3>
-                <p class="lead">{{ page.excerpt }}</p>
+                <h3 class="display-4"> <span class="text-primary">{ </span>{{ page.title }}<span class="text-primary"> }</span></h3>
+                    <p class="lead">{{ page.excerpt }}</p>
                 <hr class="my-4">
 
                 {% for category in page.categories %}

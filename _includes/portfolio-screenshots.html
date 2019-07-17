@@ -1,18 +1,24 @@
 <!-- NEED TO FIX -->
+<script>
+$('.carousel').carousel({
+  interval: 800
+})
+</script>
 <div class="bd-example">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            
+            {% for screenshot in page.screenshots %}
+                <li data-target="#carouselExampleCaptions" data-slide-to="{{ forloop.index }}" class="{% if forloop.first == true %}active {% endif %}"></li>
+                
+            {% endfor %}
         </ol>
         <div class="carousel-inner">
             {% for screenshot in page.screenshots %}
-            <div class="carousel-item active">
+            <div class="carousel-item {% if forloop.first == true %}active {% endif %}">
                 <img src="{{ site.base_url}}/assets/images/portfolios/{{ screenshot.url}}" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>{{ screenshot.name}}</h5>
-                    <p>{{ screenshot.description}}</p>
+                <div class="carousel-caption d-none d-md-block ">
+                    <p class="badge badge-pill badge-dark mt-2 mb-2">{{ screenshot.name}}</p>                    
                 </div>
             </div>
             {% endfor %}

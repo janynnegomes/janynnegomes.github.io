@@ -10,18 +10,20 @@
         border: solid 5px red;
     }
 
+    .bottom-portfolio
+{
+    background-image: url('{{ site.base_url}}/assets/images/topo-portfolio-page.png');
+    background-clip: padding-box;
+    background-position: bottom;
+    background-size: contain;
+    BACKGROUND-REPEAT: no-repeat;
+}
+
 }
 
 .portfolio-section
 {
     padding:40px;
-}
-
-#page-top
-{
-    .container-fluid{
-        padding: 0px !important;
-    }
 }
 
 
@@ -33,3 +35,4 @@
 .text-purple{
     color: purple !important;
 }
+

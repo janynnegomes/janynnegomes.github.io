@@ -3,7 +3,7 @@ title: Jogo esporte da mente
 skills: Documentação, CANVAS, Prototipação
 external_url: none
 icon: fas fa-gamepad
-cover: esporte-da-mente/cover.jpg
+cover: esporte-da-mente/cover.png 
 excerpt: Prestação de serviços para elaboração do CANVAS, análise de requisitos
 long_description: 
 period: Mar 2019 – Apr 2019
@@ -35,9 +35,21 @@ categories:
 features: 
     - name: Não pode ser divulgado devido a assinatura de termo de confidencialidade
 screenshots:
-  - url: esporte-da-mente/cover.jpg" 
-    name: Home 1
-    subtitle: teste
+  - url: esporte-da-mente/quadro-tarefas-mockup-2.png 
+    name: Quadro de tarefas - Trello
+    subtitle: Quadro de tarefas - Trello
+  - url: esporte-da-mente/quadro-tarefas-mock-browser-editado.jpg 
+    name: Quadro de tarefas - Trello
+    subtitle: Quadro de tarefas - Trello
+  - url: esporte-da-mente/documento-modelagem-requisitos-mockup.png 
+    name: Documento de Requisitos - UML
+    subtitle: Documento de Requisitos - UML
 ---
 
-Prestação de serviços para elaboração do CANVAS, análise de requisitos, documentação UML e prototipagem do jogo visando obtenção da arquitetura necessária para o desenvolvimento do software. Foram utilizadas as ferramentas Trello para gestão ágil do projeto , Google Drive para documentação, Argo UML para modelagem e Cacoo para criação do protótipo de baixa fidelidade.
+Prestação de serviços para uma **startup**, que consistiu na elaboração de **documentação inicial** do projeto à fim de produzir um **protótipo de interface** e **documentação de modelagem do negócio** para orientação dos desenvolvedores.
+
+Por se tratar de uma startup, ainda não havia um modelo de negócio pensado, durante o projeto foi construído esse modelo utilizando a ferramenta **CANVAS de Negócio** e prestado todo o suporte no preenchimento das informações necessárias, com prática de **consultoria de negócios digitais** orientando quanto ao que era viável tecnicamente de ser construído, considerando todos os fatores de **mobilidade**, **escalabilidade** e **experiência do usuário**.
+
+A documentação final foi elaborada segundo os padrões de documentação de software **UML** durante o processo de análise de requisitos e projeto de software contendo a documentação descritiva formal dos **casos de uso** bem como a identificação e numeração das **regras de negócio**. A construção se deu forma colaborativa com os clientes por meio do **Google Documentos**, com recursos de sugestão de edição e comentários nos trechos desejados.
+
+Veja mais detalhes na área **Tecnologias**.
