@@ -1,16 +1,16 @@
 <!-- Header -->
 <header>
-    <div class="jumbotron rounded-0 bottom-portfolio"    >
+    <div class="jumbotron rounded-0 bottom-portfolio">
         <div class="row">
             <div class="col-md-10 offset-md-1 text-center">
-                <h3 class="display-4"> <span class="text-primary">{ </span>{{ page.title }}<span class="text-primary"> }</span></h3>
+                <h2 class=""> <span class="text-primary">{ </span>{{ page.title }}<span class="text-primary"> }</span>
+                </h2>
                 <p class="lead">{{ page.excerpt }}</p>
                 <p>
-
-                {% for category in page.categories %}
-                    <span class="badge badge-pill badge-primary">{{ category.name }}</span>                    
-                {% endfor %}
-            </p>
+                    {% for category in page.categories %}
+                    <span class="badge badge-pill badge-primary">{{ category.name }}</span>
+                    {% endfor %}
+                </p>
             </div>
         </div>
     </div>

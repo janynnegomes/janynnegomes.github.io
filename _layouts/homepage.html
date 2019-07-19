@@ -2,18 +2,11 @@
 <html lang="pt-br">
 {% include head.html %}
 
-<body id="page-top" class="index">
+<body id="page-top-1" class="index">
     {% include nav.html %}
   <div class="pl-0 pr-0 container bg-light">
    
     {% include header.html %}
-    <ul>
-      {% for project in site.authors %}
-      <li>
-        <h2><a href="{{ site.baseurl }}/authors/{{project.slug}}">{{ project.title }}</a></h2>
-      </li>
-      {% endfor %}
-    </ul>
     {% include experiences.html %}
     {% include recomendations.html %}    
     
