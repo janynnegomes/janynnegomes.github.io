@@ -4,6 +4,9 @@
 - name: Portfólio
   link: /portfolios.html
   icon: fas fa-laptop-code
+- name: Serviços
+  link: /servicos.html
+  icon: fas fa-briefcase
 - name: Sobre
   link: /sobre.html
   icon: fas fa-user-astronaut
