@@ -1,12 +1,14 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light pl-5 pr-5 shadow-sm">
+
+<div class="container-fluid bg-jumbotron">
+<nav class="navbar navbar-expand-lg navbar-light  container">
   <a class="navbar-brand" href="{{ site.url}}">{{ site.title}}</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse right" id="navbarText">
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse " id="navbarText">
+    <ul class="navbar-nav ml-auto w-100 justify-content-end">
 
       {% for item in site.data.menu %}
       <li class="nav-item active">
@@ -21,3 +23,5 @@
     </span>
   </div>
 </nav>
+
+</div>
