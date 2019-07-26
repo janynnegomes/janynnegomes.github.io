@@ -11,6 +11,7 @@
                     </div>
                     <div class="col-md-9">
                         <p class="card-text"> {{ site.mini_bio }}</p>
+                        <p class="small">{{ site.headline }}</p>
                     </div>
                 </div>
 
@@ -76,7 +77,7 @@
     <div class="container-fluid mt-0 pb-3 pt-3 bg-secondary text-center ">
         <div class="row ">
             <div class="col">
-                Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }} - Desenvolvido e desenhado com amor por {{ site.author}}
+                Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }} - Desenvolvido e desenhado com <i class="fa fa-heart"></i> por {{ site.author}}
             </div>
         </div>
     </div>
