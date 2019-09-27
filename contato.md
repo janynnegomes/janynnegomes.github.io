@@ -10,7 +10,7 @@ E-mail: janynnegomes@gmail.com
 
 ### Redes Sociais
 
-- Github e Twitter: [@devnetgomez](https://janynnegomes.wordpress.com/mentions/devnetgomez/)
+- Github e Twitter: [@janynnegomes](https://github.com/janynnegomes)
 - Facebook: [https://www.facebook.com/DiarioDeUmaProgramadorA](https://www.facebook.com/DiarioDeUmaProgramadorA)
 - Facebook: [https://www.facebook.com/janynnegomes](https://www.facebook.com/janynnegomes)
 - Instagram: janynnegomesdev
