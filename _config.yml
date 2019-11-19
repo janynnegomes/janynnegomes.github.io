@@ -8,8 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://janynnegomes.github.io" 
 twitter_username: devnetgomez
 github_username:  devnetgomez
-mini_bio: Engenheira de Software com mais de 11 anos de experiência em desenvolvimento. Experiência internacional em BootCamp de robótica na NASA GSFC nos EUA. Sólidos conhecimentos em UML, OOP, Java, PHP, Javascript, Angular, NodeJS, MySQL, Ionic, WordPress, Jasmine, PHPUnit e Scrum. Forte relacionamento interpessoal com facilidade de comunicação em inglês e português. 
-
+mini_bio: Engenheira de Software com mais de 11 anos de experiência em desenvolvimento de sistemas. Atuação internacional em estágio de robótica na NASA no Centro de Vôos Espaciais Goddard nos EUA. Sólidos conhecimentos em UML, OOP, Javascript, Typescript, Angular, MySQL, Ionic, WordPress e Scrum. Forte relacionamento interpessoal com facilidade de comunicação em inglês e português.
 contact: disqus
 disqus_shortname: devnetgomez-github-io
 
