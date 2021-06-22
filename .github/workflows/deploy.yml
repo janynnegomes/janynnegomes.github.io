@@ -22,7 +22,7 @@ jobs:
       run: npm run build-prod
     
     - name: Generate 404
-      run: cp index.html 404.html
+      run: cp dist/index.html dist/404.html
   
     #- name: Test
     #  run: npm run test:ci
