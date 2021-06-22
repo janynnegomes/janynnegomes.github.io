@@ -21,8 +21,8 @@ jobs:
     - name: Build
       run: npm run build:prod
   
-    - name: Test
-      run: npm run test:ci
+    #- name: Test
+    #  run: npm run test:ci
       
     - name: Deploy on Github Pages
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.0
