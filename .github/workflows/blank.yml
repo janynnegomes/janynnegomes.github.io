@@ -1,0 +1,34 @@
+name: Pipeline Production
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12.8
+      uses: actions/setup-node@v1
+      with:
+       node-version: 12.8
+       
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Build
+      run: npm run build:prod
+  
+    - name: Test
+      run: npm run test:ci
+      
+    - name: Deploy on Github Pages
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.0
+      with:
+          github_access_token: ${{ secrets.ACCESS_TOKEN }}
+          base_href: https://janynnegomes.github.io
+          build_configuration:  production
+          deploy_branch: gh-pages
+          skip_failure: false
