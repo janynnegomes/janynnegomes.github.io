@@ -20,6 +20,7 @@ jobs:
       
     - name: Build
       run: npm run build-prod
+      run: cp index.html 404.html
   
     #- name: Test
     #  run: npm run test:ci
