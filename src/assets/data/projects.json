@@ -1,0 +1,243 @@
+{
+    "projects": [
+        {
+            "title": "Automatização em bares",
+            "slug": "automatizacao-bares",
+            "external_url": "none",
+            "icon": "fas fa-food",
+            "cover": "automatizacao-bares/cover.jpg",
+            "excerpt": "Aplicativos que ligam donos de bares aos clientes físicos durante todo o consumo, fazendo o papel do garçom virtual",
+            "period": "Jan 2017 – Aug 2017",
+            "details": "gerenciamento de projeto, desenvolvimento e testes",
+            "videoId": "",
+            "skills": [
+                {
+                    "name": "codificação"
+                },
+                {
+                    "name": "testes"
+                },
+                {
+                    "name": "gestão de projetos"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Ionic Framework",
+                    "reason": "Foi escolhido esse framework pois foi necessário criar aplicativos para distribuição nas lojas do Android e iOS, como seria custoso o desenvolvimento nativo, tanto em tempo quanto financeiramente, optou-se por essa plataforma, que atendeu bem aos requisitos de conectividade e sincronismo entre os aplicativos de dono e cliente."
+                },
+                {
+                    "name": "Ionic Framework",
+                    "reason": "Foi escolhido esse framework pois foi necessário criar aplicativos para distribuição nas lojas do Android e iOS, como seria custoso o desenvolvimento nativo, tanto em tempo quanto financeiramente, optou-se por essa plataforma, que atendeu bem aos requisitos de conectividade e sincronismo entre os aplicativos de dono e cliente."
+                },
+                {
+                    "name": "Trello",
+                    "reason": "Gerenciar as tarefas macro e etapas do projeto de forma assíncrona e remota de forma colaborativa com os clientes e o outro engenheiro de software que estava mais focado na construção do backend."
+                },
+                {
+                    "name": "Azure Devops",
+                    "reason": "Foi utilizado para gestão de requisitos (estórias de usuário) e evolução do desenvolvimento do sistema, com rastreio de alterações do código fonte que atendia a cada requisito, fazendo o controle de versão do projeto."
+                }
+            ],
+            "categories": [
+                {
+                    "name": "site",
+                    "icon": "fa fa-download"
+                },
+                {
+                    "name": "aplicativo móvel",
+                    "icon": "fa fa-phone"
+                }
+            ],
+            "features": [
+                {
+                    "name": "Push notifications"
+                },
+                {
+                    "name": "Socket.io para transmissão das alterações na comanda"
+                },
+                {
+                    "name": "Autenticação com Facebook"
+                },
+                {
+                    "name": "Escaneamento de QRCode"
+                }
+            ],
+            "screenshots": [
+                {
+                    "url": "automatizacao-bares/tarefas-gestao.png",
+                    "name": "Gestão de funcionalidades - Azure Devops",
+                    "subtitle": "Gestão de funcionalidades -  Azure Devops"
+                },
+                {
+                    "url": "automatizacao-bares/cardapio-cliente.jpg",
+                    "name": "Cardápio - App do cliente",
+                    "subtitle": "Cardápio - App do cliente"
+                },
+                {
+                    "url": "automatizacao-bares/dashboard-dono-estabelecimento.jpg",
+                    "name": "Dashboard - App do dono",
+                    "subtitle": "Dashboard - App do dono"
+                },
+                {
+                    "url": "automatizacao-bares/fechamento-comanda.jpg",
+                    "name": "Fechamento da conta (comanda) - App do dono",
+                    "subtitle": "Fechamento da conta (comanda) - App do dono"
+                },
+                {
+                    "url": "automatizacao-bares/publicacao-go-loja-android-dono.png",
+                    "name": "Página do app no Google Play - App do dono",
+                    "subtitle": "Fechamento da conta (comanda) - App do dono"
+                },
+                {
+                    "url": "automatizacao-bares/publicacao-loja-android-cliente.png",
+                    "name": "Página do app no Google Play - App do dono",
+                    "subtitle": "Fechamento da conta (comanda) - App do cliente"
+                }
+            ],
+            "content": "\"<p>Presta&ccedil;&atilde;o de servi&ccedil;os para desenvolvimento de <strong>aplicativo</strong>&nbsp;Android e iOS para uma startup que fazia a automatiza&ccedil;&atilde;o do processo de pedidos em bares e restaurantes, agindo como um gar&ccedil;om virtual na palma da m&atilde;o.</p>\\n            <p>Foram realizadas v&aacute;rias <strong>reuni&otilde;es</strong>&nbsp;online e presenciais a fim de realizar o <strong>levantamento de requisitos</strong>&nbsp;e realizar <strong>testes de aceita&ccedil;&atilde;o</strong>&nbsp;nos aplicativos. Os testes tamb&eacute;m aconteceram de forma remota e ass&iacute;ncrona mediados pelo <strong>Trello</strong>.</p>\\n            <p>Foi realizada uma etapa de testes em campo, utilizando o primeiro cliente dessa startup, que era dono de um bar rec&eacute;m aberto na regi&atilde;o central de Governador Valadares, onde pudemos detectar necessidades de <strong>melhoria e corre&ccedil;&otilde;es</strong>. Saiba mais sobre cada tecnologia utilizada na sess&atilde;o <strong>Tecnologias</strong>.</p>\""
+        },
+        {
+            "title": "Jogo esporte da mente",
+            "external_url": "none",
+            "slug": "esporte-da-mente",
+            "icon": "fas fa-gamepad",
+            "cover": "esporte-da-mente/cover.png",
+            "excerpt": "Prestação de serviços para elaboração do CANVAS, análise de requisitos",
+            "long_description": "",
+            "period": "Mar 2019 – Apr 2019",
+            "details": "canvas, prototipagem, documentação",
+            "videoId": "",
+            "skills": [
+                {
+                    "name": "canvas design"
+                },
+                {
+                    "name": "prototipagem de interface"
+                },
+                {
+                    "name": "documentação"
+                },
+                {
+                    "name": "gestão de projetos"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Trello",
+                    "reason": "Gerenciar as tarefas e etapas do projeto de forma assíncrona e remota."
+                },
+                {
+                    "name": "Cacoo",
+                    "reason": "Criar protótipo de média fidelidade utilizando Wireframes"
+                },
+                {
+                    "name": "UML",
+                    "reason": "Modelar os casos de uso dos diferentes perfis de usuário"
+                },
+                {
+                    "name": "Argo UML",
+                    "reason": "Modelar os diagramas de caso de uso e atividades dos requisitos"
+                },
+                {
+                    "name": "Google Drive",
+                    "reason": "Redigir o documento de documentação do projeto"
+                }
+            ],
+            "categories": [
+                {
+                    "name": "jogo",
+                    "icon": "fa fa-download"
+                },
+                {
+                    "name": "aplicativo móvel",
+                    "icon": "fa fa-phone"
+                }
+            ],
+            "features": [
+                {
+                    "name": "Não pode ser divulgado devido a assinatura de termo de confidencialidade"
+                }
+            ],
+            "screenshots": [
+                {
+                    "url": "esporte-da-mente/quadro-tarefas-mockup-2.png ",
+                    "name": "Quadro de tarefas - Trello",
+                    "subtitle": "Quadro de tarefas - Trello"
+                },
+                {
+                    "url": "esporte-da-mente/quadro-tarefas-mock-browser-editado.jpg ",
+                    "name": "Quadro de tarefas - Trello",
+                    "subtitle": "Quadro de tarefas - Trello"
+                },
+                {
+                    "url": "esporte-da-mente/documento-modelagem-requisitos-mockup.png ",
+                    "name": "Documento de Requisitos - UML",
+                    "subtitle": "Documento de Requisitos - UML"
+                }
+            ],
+            "content": "\"<p>Presta&ccedil;&atilde;o de servi&ccedil;os para uma <strong>startup</strong>, que consistiu na elabora&ccedil;&atilde;o de <strong>documenta&ccedil;&atilde;o inicial</strong> do projeto &agrave; fim de produzir um <strong>prot&oacute;tipo de interface</strong>&nbsp;e <strong>documenta&ccedil;&atilde;o de modelagem do neg&oacute;cio</strong>&nbsp;para orienta&ccedil;&atilde;o dos desenvolvedores.</p>\\n<p>Por se tratar de uma startup, ainda n&atilde;o havia um modelo de neg&oacute;cio pensado, durante o projeto foi constru&iacute;do esse modelo utilizando a ferramenta <strong>CANVAS de Neg&oacute;cio</strong>&nbsp;e prestado todo o suporte no preenchimento das informa&ccedil;&otilde;es necess&aacute;rias, com pr&aacute;tica de <strong>consultoria de neg&oacute;cios digitais</strong>&nbsp;orientando quanto ao que era vi&aacute;vel tecnicamente de ser constru&iacute;do, considerando todos os fatores de <strong>mobilidade</strong>, <strong>escalabilidade</strong>&nbsp;e <strong>experi&ecirc;ncia do usu&aacute;rio</strong>.</p>\\n<p>A documenta&ccedil;&atilde;o final foi elaborada segundo os padr&otilde;es de documenta&ccedil;&atilde;o de software <strong>UML</strong>&nbsp;durante o processo de an&aacute;lise de requisitos e projeto de software contendo a documenta&ccedil;&atilde;o descritiva formal dos <strong>casos de uso</strong> bem como a identifica&ccedil;&atilde;o e numera&ccedil;&atilde;o das <strong>regras de neg&oacute;cio</strong>. A constru&ccedil;&atilde;o se deu forma colaborativa com os clientes por meio do <strong>Google Documentos</strong>, com recursos de sugest&atilde;o de edi&ccedil;&atilde;o e coment&aacute;rios nos trechos desejados. Veja mais detalhes na &aacute;rea <strong>Tecnologias</strong>.</p>\""
+        },
+        {
+            "title": "Site para clínica médica",
+            "slug":"saude-da-familia",
+            "external_url": "none",
+            "icon": "fas fa-heartbeat",
+            "cover": "saude-da-familia/cover.jpg",
+            "excerpt": "Website para a área da saúde que conecta um plano de assistência médica aos clientes",
+            "period": "Jan 2017 – Aug 2017",
+            "details": "gerenciamento de projeto, desenvolvimento e testes",
+            "videoId": "",
+            "skills": [
+                {
+                    "name": "anáĺise de requisitos"
+                },
+                {
+                    "name": "coleta de requisitos"
+                },
+                {
+                    "name": "documentação"
+                },
+                {
+                    "name": "gestão de projetos"
+                },
+                {
+                    "name": "programação"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "WordPress",
+                    "reason": "Foi escolhido esse framework pois um dos requisitos era de ser uma ferramenta fácil de administrar."
+                },
+                {
+                    "name": "Trello",
+                    "reason": "Gerenciar as tarefas, requisitos e etapas do projeto de forma assíncrona e remota."
+                }
+            ],
+            "categories": [
+                {
+                    "name": "site",
+                    "icon": "fa fa-download"
+                },
+                {
+                    "name": "front-end",
+                    "icon": " fa fa-download"
+                }
+            ],
+            "features": [
+                {
+                    "name": "Formulários de inscrição no plano"
+                }
+            ],
+            "screenshots": [
+                {
+                    "url": "saude-da-familia/cover.jpg",
+                    "name": "Capa",
+                    "subtitle": "Capa"
+                }
+            ],
+            "content": "<p>Participei de diversas reuniões presenciais para <b>coleta de requisitos</b> e entregas.</p><p>O projeto consistiu no desenvolvimento de website para o ramo da saúde para atender uma clínica de medicina de família e comunidade. Foi criado em WordPress e desenvolvido um plugin específico para controlar distribuição de arquivos entre os representantes comerciais. Para aumentar a conversão de vendas foram criados formulários que informatizavam todo o processo de contratação dos planos emitindo alertas para os proprietários da empresa sempre que um novo cliente enviava seus dados.</p>"
+        }
+    ]
+}

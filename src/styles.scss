@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+.top-ilustration{
+    width:100%;
+}
+
+.card-servicos
+{
+    min-height: 250px;
+}
+.bg-primary, .bg-purple{
+    background-color: purple !important;
+    border:0px !important;
+}
+
+.bg-jumbotron
+{
+    background-color: #e9ecef !important;
+}
+.text-purple{
+    color: purple !important;
+}
+
+
+.sitemap-box, .social-box
+    {
+        
+        h3{
+            text-align: center;
+        }
+
+
+ul{
+    padding: 0px;
+    li {
+    
+        list-style: none;
+                 
+    }
+}
+    }
+
+// Dispositivos small (telefones em modo paisagem, com 576px ou mais)
+@media (max-width: 576px) { 
+
+    .profile-box
+    {
+        text-align: center;
+    }
+
+    .social-box
+    {
+        margin-top: 15px;
+        
+        h3{
+            text-align: center;
+        }
+
+        
+        ul{
+            
+            li {            
+                text-align: center;            
+            }
+        }
+    }
+ }
+
+// Dispositivos médios (tablets com 768px ou mais)
+@media (min-width: 768px) { 
+    #footer .profile-box
+    {
+        text-align: left;
+    }
+ }
+
+// Dispositivos extra large (desktops grandes com 1200px ou mais)
+@media (min-width: 1200px) {  }

@@ -1,0 +1,23 @@
+<div class="container animated fadeIn">
+    <ng-container *ngFor="let service of services">
+        <div class="row  m-5 text-center">
+            <div class="col">
+                <h3>{{service.group_name}}</h3>
+            </div>
+        </div>
+        <div class="row mb-4 services-cards">
+            <div class="col-md-4" *ngFor="let item of service.items">
+                <div
+                    class="card border-left-0 border-right-0 border-bottom-0 border-top-5 border-primary rounded-0 card-servicos ">
+                    <div class="card-body">
+                        <h1><i class="{{item.icon}} text-primary"></i></h1>
+                        <h3 class="text-primary">{{item.title}}</h3>
+                        <p>{{item.description}}</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </ng-container>
+</div>

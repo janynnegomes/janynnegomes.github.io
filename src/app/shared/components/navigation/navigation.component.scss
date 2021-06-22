@@ -1,0 +1,36 @@
+::ng-deep .navbar{
+    .nav-item{
+    &.active{
+        background-color: red;
+
+        &::before{
+            border-radius: 50%;
+            border: solid 5px yellow;
+            width: 5px;
+            height: 5px;
+            display: block;
+            position: relative;
+            content: "-";
+        }
+    }
+    }
+}
+
+::ng-deep .sitemap{
+    border-left: dashed 1px #fff;
+    .nav-item{
+        .nav-link{
+            color:#fff; 
+            padding-left: 0;
+            &::before{
+                display: inline-block;
+                content: " ";
+                border-bottom: dashed 1px #fff;
+                width: 2rem;
+                position: relative;
+                margin-bottom: .3rem;
+                height: 1px;
+            }
+        }
+    }
+}

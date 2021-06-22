@@ -1,0 +1,95 @@
+<app-navigation title="Janynne Gomes" [menu]="menu" mainUrl="/" type="top"></app-navigation>
+<router-outlet></router-outlet>
+<!-- Footer -->
+<footer id="footer" class="bg-secondary text-light bg-dark shadow">
+    <div class="container">
+        <div class="jumbotron bg-dark  mb-0">
+            <div class="row">
+                <div class="col-md-6 profile-box">
+
+                    <div class="row mb-5">
+                        <div class="col-md-3">
+                            <img src="./assets/images/profile.jpg" alt="Foto de perfil"
+                                class="img-thumbnail rounded-circle">
+                        </div>
+                        <div class="col-md-9">
+                            <h3 class="text-left mb-4">Quem é Janynne?</h3>
+                            <p class="card-text"> {{ site.mini_bio }}</p>
+                            <p class="small">{{ site.headline }}</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 sitemap-box">
+                    <div class="container pl-5 pr-5">
+                        <h3 class="text-left mb-4">Sitemap</h3>
+                        <app-navigation [menu]="menu" type="footer"></app-navigation>
+                    </div>
+                </div>
+
+                <div class="col-md-3 social-box">
+                    <div class="container ">
+                        <h3 class="text-left mb-4"> Redes sociais</h3>
+                        <div class="row">
+                            <div class="col">
+                                <a href="{{ site.data.social[0].url}}" target="_blank">
+                                    <h1><i class="{{ site.data.social[0].icon}}"></i></h1>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="{{ site.data.social[1].url}}" target="_blank">
+                                    <h1><i class="{{ site.data.social[1].icon}}"></i></h1>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="{{ site.data.social[2].url}}" target="_blank">
+                                    <h1><i class="{{ site.data.social[2].icon}}"></i></h1>
+                                </a>
+                            </div>
+
+                            <div class="w-100"></div>
+                            <div class="col">
+                                <a href="{{ site.data.social[3].url}}" target="_blank">
+                                    <h1><i class="{{ site.data.social[3].icon}}"></i></h1>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="{{ site.data.social[4].url}}" target="_blank">
+                                    <h1><i class="{{ site.data.social[4].icon}}"></i></h1>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="{{ site.data.social[5].url}}" target="_blank">
+                                    <h1><i class="{{ site.data.social[5].icon}}"></i></h1>
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>       
+    </div>
+    <div class="container-fluid mt-0 pb-3 pt-3 bg-secondary text-center ">
+        <div class="row ">
+            <div class="col">
+                Copyright &copy; {{ site?.footer?.copyright }} {{ site?.time }} - Desenvolvido e desenhado com <i
+                    class="fa fa-heart"></i> por {{ site.author}}
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Hotjar Tracking Code for http://janynnegomes.github.io/ -->
+<script>
+    (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+        h._hjSettings = { hjid: 1812255, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script'); r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+</script>

@@ -1,0 +1,32 @@
+<!-- Trabalhos-->
+<div class="container pb-5 mt-5 project-list">
+    <h2 class="text-center mb-5">Projetos</h2>
+
+    <div class="row " *ngFor="let project of projects">
+
+        <div class="col-md-6">
+            <div class="card text-left rounded-0 border-0 shadow text-secondary">
+                <img src="./assets/images/portfolios/{{ project?.cover}}" class="card-img-top"
+                    alt="Capa do projeto">
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card text-left rounded-0 border-0  text-secondary">
+
+                <div class="card-body">
+                    <h3 class="card-title text-break "> {{ project?.title}}</h3>
+                    <p class="card-text text-break">{{ project?.excerpt}}</p>
+                    <p class="card-text"><strong> Categorias:</strong>
+                        <span class="badge badge-pill badge-primary" *ngFor="let category of project?.categories ">{{ category.name }}</span>                        
+                    </p>
+                    
+                    <div class="card-footer bg-transparent text-left m-0 p-0 pt-5" ><a
+                            href="projetos/{{project?.slug}}" class="btn btn-outline-info"> <i
+                                class="fas fa-eye"></i> Ver projeto</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>

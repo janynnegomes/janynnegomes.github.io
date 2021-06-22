@@ -1,0 +1,31 @@
+<!-- NEED TO FIX -->
+<script>
+    $('.carousel').carousel({
+        interval: 800
+    })
+</script>
+<div class="bd-example">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li *ngFor="let image of images; let i = index;"  data-target="#carouselExampleCaptions" [attr.data-slide-to]="i"
+                class="{{ i === 0? 'active':''}}"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div *ngFor="let image of images; let i = index;"  class="carousel-item {{ i === 0? 'active':''}}">
+                <img src="./assets/images/portfolios/{{ image.url}}" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <p class="badge badge-pill badge-dark mt-2 mb-2">{{ image.name}}</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+</div>
