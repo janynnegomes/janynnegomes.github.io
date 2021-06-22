@@ -1,0 +1,44 @@
+{
+    "services": [
+        {
+          "group_name": "Desenvolvimento",
+          "items": [
+            {
+              "title": "Web Dev",
+              "description": "Criação de websites institucionais e pessoais.",
+              "icon": "fas fa-globe-americas"
+            },
+            {
+              "title": "Web App",
+              "icon": "fab fa-mixcloud",
+              "description": "Criação de aplicações que rodam na web utilizando a arquitetura e infra-estrutura de computação em nuvem."
+            },
+            {
+              "title": "Mobile Apps",
+              "icon": "fas fa-mobile-alt",
+              "description": "Criação de aplicativos para iOS e Android, bem como sua distribuição nas lojas App Store e PlayStore"
+            }
+          ]
+        },
+        {
+          "group_name": "Negócios",
+          "items": [
+            {
+              "title": "Canvas design",
+              "description": "Consultoria na elaboração do CANVAS para modelagem do negócio da startup",
+              "icon": "fas fa-dice-d6 text"
+            },
+            {
+              "title": "Gestão do projeto",
+              "icon": "fas fa-users",
+              "description": "Gestão de projetos de desenvolvimento de sistemas utilizando metodologias ágeis como SCRUM e XP."
+            },
+            {
+              "title": "Modelagem do sistema",
+              "icon": "fas fa-project-diagram",
+              "description": "Elaboração de análise e modelagem do sistema com produção de modelos UML que modelam o comportamento e estrutura do projeto á ser desenvolvido."
+            }
+          ]
+        }
+      ]
+}
