@@ -1,0 +1,39 @@
+::ng-deep .portfolio-details {
+
+    .badge{
+        margin-right: 5px;
+    }
+}
+::ng-deep .portfolio-page{
+
+    // Dispositivos large (desktops com 992px ou mais)  
+    @media (min-width: 992px) {         
+        .bottom-portfolio{
+            background-image: url('../../../assets/images/topo-portfolio-page.png');
+            background-clip: padding-box;
+            background-position: bottom;
+            background-size: contain;
+            BACKGROUND-REPEAT: no-repeat;
+
+            hr{
+                display: none;
+            }
+        }
+    }
+
+}
+
+
+::ng-deep .feature-card, ::ng-deep .tools-card{
+    .card-header{
+        border-top: 5px solid #007bf0;
+        border-width: 3px;
+
+        i{
+            color:  #007bf0;
+        }
+    }
+}
+::ng-deep .bg-light{
+    background-color: #fff;
+}

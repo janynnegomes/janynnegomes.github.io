@@ -1,0 +1,23 @@
+<div class="pl-0 pr-0 container-fluid bg-light">    
+    <!-- Header -->
+    <header>
+        <div class="jumbotron rounded-0 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h1 class="animated fadeInDown"><i class="{{ icon}} "></i></h1>
+                        <h3 class="display-4 animated fadeInDown"> <span class="text-primary"> &#123; </span>{{ title
+                            }}<span class="text-primary"> &#125; </span></h3>
+                        <p class="lead">{{ excerpt }}</p>
+                        <hr class="my-4">
+                        <span class="badge badge-pill badge-primary" *ngFor="let tag of tags">{{ tag }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container animated fadeIn">
+        <ng-content></ng-content>
+    </div>
+    <script *ngIf="allowComments" id="dsq-count-scr" src="//devnetgomez-github-io.disqus.com/count.js" async></script>
+</div>

@@ -1,0 +1,121 @@
+<app-page-template *ngIf="!portfolioInfo?.title" title="Ops!"
+    excerpt="Não conseguimos encontrar esse portfólio, veja uma lista dos trabalhos que temos" icon="fas fa-search">
+    <app-projects-list></app-projects-list>
+</app-page-template>
+
+<div class="pl-0 pr-0 container-fluid portfolio-details" *ngIf="portfolioInfo?.title">
+    <!-- Header -->
+    <header class="portfolio-page">
+        <div class="jumbotron rounded-0 ml-0 bottom-portfolio">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-10 offset-md-1 text-center animated bounceInDown">
+                        <h2 class=""> <span class="text-primary">&#123; </span>{{ portfolioInfo?.title }}<span
+                                class="text-primary">
+                                &#125;</span>
+                        </h2>
+                        <p class="lead">{{ portfolioInfo?.excerpt }}</p>
+                        <p>
+                            <span *ngFor="let category of portfolioInfo?.categories"
+                                class="badge badge-pill badge-primary">{{ category.name }}</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container animated fadeIn">
+        <div class="container">
+            <div class="row">
+                <!-- Descrição -->
+                <div class="col-md-6">
+                    <h3><i class="fas fa-list"></i> Resumo</h3>
+                    <br />
+                    <div [innerHtml]="portfolioInfo?.content"></div>
+                    <span>Habilidades: </span>
+                    <span class="badge badge-pill badge-primary" *ngFor="let skill of portfolioInfo?.skills">{{
+                        skill.name
+                        }}</span>
+                </div>
+
+                <div class="col-md-6">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a *ngIf="portfolioInfo?.screenshots" class="nav-item nav-link active"
+                                id="nav-screenshot-tab" data-toggle="tab" href="#nav-screenshot" role="tab"
+                                aria-controls="nav-screenshot" aria-selected="true" title="Screenshots"><i
+                                    class="fas fa-desktop"></i> </a>
+                            <a *ngIf="portfolioInfo?.videoId" class="nav-item nav-link" id="nav-video-tab"
+                                data-toggle="tab" href="#nav-video" role="tab" aria-controls="nav-video"
+                                aria-selected="false"> <i class="fas fa-film"></i>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-screenshot" role="tabpanel"
+                            aria-labelledby="nav-screenshot-tab">
+                            <app-slider [images]="portfolioInfo?.screenshots"></app-slider>
+                        </div>
+                        <div class="tab-pane fade" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
+                            <app-video-viewer [videoId]="portfolioInfo?.videoId"></app-video-viewer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm feature-card">
+                        <div class="card-header">
+                            <i class="fas fa-star"></i> Funcionalidades principais
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group ">
+                                <li *ngFor="let feature of portfolioInfo?.features" class="list-group-item border-0"> <i
+                                        class="fas fa-check text-success mr-2"></i>
+                                    {{ feature.name }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm tools-card">
+                        <div class="card-header">
+                            <i class="fas fa-tools"></i> Tecnologias
+                        </div>
+                        <div class="card-body">
+                            <div class="list-group border-0" *ngFor="let tool of portfolioInfo?.tools">
+                                <a href="#" class="list-group-item list-group-item-action  border-left">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">{{ tool.name}}</h5>
+                                    </div>
+                                    <small>{{ tool.reason}}</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <!-- Disqus scripts-->
+                    <div class="card  mb-3">
+                        <div class="card-header">
+                            <h2>O que você achou?</h2>
+                        </div>
+                        <div class="card-body text-primary">
+
+                            <div id="disqus_thread"></div>
+                            <noscript>Please enable JavaScript to view the <a
+                                    href="https://disqus.com/?ref_noscript">comments
+                                    powered by Disqus.</a></noscript>
+                        </div>
+                    </div>
+
+                    <!-- End of disqus scripts-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script id="dsq-count-scr" src="//devnetgomez-github-io.disqus.com/count.js" async></script>
